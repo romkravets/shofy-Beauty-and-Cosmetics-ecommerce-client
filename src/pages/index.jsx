@@ -20,14 +20,14 @@ export default function Home() {
       {/* <HeaderThree/> */}
       <BeautyBanner/>
       <BeautyCategory/>
+      <BeautyOfferBanner/>
       <BeautyFeatured/>
       {/* <ProductArea/> */}
-      <BeautyOfferBanner/>
       {/* <ProductAreaTwo/> */}
       <TrendingSpecialPrd/>
       <BeautyTestimonial/>
       <FeatureAreaTwo/>
-      <InstagramAreaThree/>
+      {/* <InstagramAreaThree/> */}
       <Footer style_3={true} />
     </Wrapper>
   )

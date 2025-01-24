@@ -58,58 +58,31 @@ const TrendingSpecialPrd = () => {
     <>
       <section className="tp-special-area fix">
         <div className="container">
-          <div className="row gx-2">
+        <div className="col-lg-6 col-md-8">
+              <div className="tp-section-title-wrapper-3 mb-45">
+                <span className="tp-section-title-pre-3">
+                  Програма курсу
+                </span>
+                <h3 className="tp-section-title-3">Як проходить курс</h3>
+              </div>
+            </div>
+          <div className="row" style={{display: 'flex', alignItems: 'center'}}>
             <div className="col-xl-5 col-md-6">
               <div className="tp-special-slider-thumb">
                 <div className="tp-special-thumb">
-                  <Image src={special_thumb} alt="special-big img" priority />
-                  <div className="tp-special-hotspot-item tp-special-hotspot-1">
-                    <span className="tp-hotspot tp-pulse-border ">
-                      <PlusTwo />
-                    </span>
-                    <div className="tp-special-hotspot-content">
-                      <h3 className="tp-special-hotspot-title">Skincare Product</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </div>
-                  </div>
-                  <div className="tp-special-hotspot-item tp-special-hotspot-2">
-                    <span className="tp-hotspot tp-pulse-border ">
-                      <PlusTwo />
-                    </span>
-                    <div className="tp-special-hotspot-content">
-                      <h3 className="tp-special-hotspot-title">Skincare Product</h3>
-                      <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    </div>
-                  </div>
-
+                <p style={{fontSize: 18}}>Наш онлайн курс складається з детальних відеоуроків на YouTube, які ти можеш переглядати в зручний для тебе час.</p>
+                <p style={{fontSize: 18}}>Кожен урок побудований так, щоб ти могла крок за кроком освоїти основи макіяжу для себе.</p>
+                <p style={{fontSize: 18}}>Усі матеріали, включаючи PDF-інструкції та персоналізовані схеми, доступні одразу після реєстрації.</p>
+                <p style={{fontSize: 18}}>В процесі навчання ти можеш обговорювати свої результати у закритій групі з іншими учасницями.</p>
                 </div>
               </div>
             </div>
             <div className="col-xl-7 col-md-6">
-              <div className="tp-special-wrapper grey-bg-9 pt-85 pb-35">
-                <div className="tp-section-title-wrapper-3 mb-40 text-center">
-                  <span className="tp-section-title-pre-3">Trending This Week’s</span>
-                  <h3 className="tp-section-title-3">Special products</h3>
+              <div className="tp-special-wrapper">
+                <div className="tp-special-slider">
+                <div class="video-container">
+                <iframe width="460" height="315" src="https://www.youtube.com/embed/Gs4UyiA3r1s?si=Ki-ttTDFuBJ68llk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <div className="tp-special-slider ">
-                  <div className="row gx-0 justify-content-center">
-                    <div className="col-xl-5 col-lg-7 col-md-9 col-sm-7">
-                      <div className="tp-special-slider-inner p-relative  ">
-                        {content}
-                        {/* dot style */}
-                        <div className="tp-swiper-dot tp-special-slider-dot d-sm-none text-center"></div>
-                        <div className="tp-special-arrow d-none d-sm-block">
-                          <button className="tp-special-slider-button-prev">
-                            <ArrowPrevSm />
-                          </button>
-
-                          <button className="tp-special-slider-button-next">
-                            <ArrowNextSm />
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
