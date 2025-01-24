@@ -83,7 +83,7 @@ const BeautyBanner = () => {
                 style={{ backgroundImage: `url(${item.bg.src})` }}
               ></div>
               <div className="container">
-                <div className="row align-items-center">
+                <div className="row align-items-center margin-bottom-space">
                   <div className="col-xl-6 col-lg-6 col-md-8">
                     <div className="tp-slider-content-3">
                       <span>Авторський онлайн курс Анастасії Кравець</span>

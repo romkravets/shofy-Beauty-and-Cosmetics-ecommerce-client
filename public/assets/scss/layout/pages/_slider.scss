@@ -1077,3 +1077,17 @@
     @include animation-control(.1s);
     margin-bottom: 18px;
 }
+
+.margin-bottom-space {
+    margin-bottom: 150px;
+    @media #{$md}{
+        margin-bottom: 0;
+    }
+    @media #{$sm}{
+        margin-bottom: 0;
+    }
+    @media #{$xs}{
+        margin-bottom: 0;
+    }
+
+}
