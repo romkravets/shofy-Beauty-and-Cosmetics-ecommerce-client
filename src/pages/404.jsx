@@ -22,13 +22,10 @@ const ErrorPage = () => {
                 <div className="tp-error-thumb">
                   <Image src={error} alt="error img" />
                 </div>
-
-                <h3 className="tp-error-title">Oops! Page not found</h3>
+                <h3 className="tp-error-title">Упс! Сторінка не знайдена</h3>
                 <p>
-                  Whoops, this is embarrassing. Looks like the page you were
-                  looking for was not found.
+                  Ой, це незручно. Схоже, що сторінка, яку ви шукали, не знайдена.
                 </p>
-
                 <Link href="/" className="tp-error-btn">
                   Back to Home
                 </Link>

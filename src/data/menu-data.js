@@ -7,7 +7,7 @@ const menu_data = [
   {
     id: 1,
     homes: true,
-    title: 'Home',
+    title: 'Головна',
     link: '/',
     home_pages: [
       {
@@ -35,7 +35,7 @@ const menu_data = [
   {
     id: 2,
     products: true,
-    title: 'Products',
+    title: 'Продукти',
     link: '/shop',
     product_pages: [
       {
@@ -113,7 +113,7 @@ const menu_data = [
   {
     id: 6,
     single_link: true,
-    title: 'Contact',
+    title: 'Конаткти',
     link: '/contact',
   },
 ]

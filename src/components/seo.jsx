@@ -5,7 +5,7 @@ const SEO = ({pageTitle}) => (
   <>
     <Head>
       <title>
-        {pageTitle && `${pageTitle} - Анастасія Бойок-Кравець: Курси Самомакіяж`}
+        {pageTitle && `${pageTitle} - Курси Самомакіяж`}
       </title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="description" content="Б'юті студія: макіяж, манікюр, курси самокосметики та краси. Вчіть професійно доглядати за собою та розкривати свою унікальність разом з нами!" />
