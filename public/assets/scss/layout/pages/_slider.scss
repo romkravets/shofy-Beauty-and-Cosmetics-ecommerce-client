@@ -453,7 +453,7 @@
         & > span{
             font-family: var(--tp-ff-charm);
             font-weight: 400;
-            font-size: 25px;
+            font-size: 18px;
             color: var(--tp-common-white);
             display: inline-block;
             @include animation-control(.1s);
@@ -1091,3 +1091,12 @@
     }
 
 }
+
+.tp-slider-sub-3 {
+    color: #ffd700 !important;
+  }
+  
+  .sub-bold {
+      font-weight: 700;
+      color: #f7d308 !important;
+  }

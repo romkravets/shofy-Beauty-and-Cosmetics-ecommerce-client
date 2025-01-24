@@ -38,6 +38,14 @@ const BeautyFeatured = () => {
     <>
       <section className="tp-featured-product-area pt-70 pb-150">
         <div className="container">
+        <div className="col-lg-6 col-md-8">
+              <div className="tp-section-title-wrapper-3 mb-45">
+                <span className="tp-section-title-pre-3">
+                  Програма курсу
+                </span>
+                <h3 className="tp-section-title-3">Ти отримаєш розбір</h3>
+              </div>
+            </div>
           <div className="row gx-0">
             {featured_data.map(item => (
               <div key={item.id} className="col-lg-4 col-md-6">

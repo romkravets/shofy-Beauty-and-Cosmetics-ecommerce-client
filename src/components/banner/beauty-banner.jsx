@@ -32,18 +32,6 @@ const slider_data = [
     subtitle: "Авторський онлайн курс Анастасії Кравець",
     title: "МАКІЯЖ ДЛЯ СЕБЕ",
   },
-  {
-    id: 2,
-    bg: slider_bg_2,
-    subtitle: "Top Brand Collection",
-    title: "Use the best for you.",
-  },
-  {
-    id: 3,
-    bg: slider_bg_3,
-    subtitle: "Awesome Beauty Products",
-    title: "Don't Worry for Skincare",
-  },
 ];
 
 // feature item 
@@ -88,13 +76,13 @@ const BeautyBanner = () => {
                     <div className="tp-slider-content-3">
                       <span>Авторський онлайн курс Анастасії Кравець</span>
                       <h3 className="tp-slider-title-3">
-                        МАКІЯЖ ДЛЯ СЕБЕ
+                        МАКІЯЖ ДЛЯ <span className="tp-slider-sub-3">СЕБЕ</span>
                       </h3>
-                      <p className="tp-slider-p-1">Навчись створювати свій ідеальний макіяж</p>
+                      <p className="tp-slider-p-1">Навчись створювати свій ідеальний макіяж:</p>
                       <div className="tp-slider-feature-3 d-flex flex-wrap align-items-center p-relative z-index-1 mb-15">
-                        <FeatureItem icon={<Cosmetics />} title={<>Вдома лише за<br /> 15 хвилин</>} />
-                        <FeatureItem icon={<VeganProduct />} title={<>Всього за <br /> 5 кроків</>} />
-                        <FeatureItem icon={<Meckoup />} title={<>Створення <br /> образу</>} />
+                        <FeatureItem icon={<Cosmetics />} title={<>Лише за<br /> <span className="tp-slider-sub-3 sub-bold">15</span> хвилин</>} />
+                        <FeatureItem icon={<VeganProduct />} title={<>Всього за <br />  <span className="tp-slider-sub-3 sub-bold">5</span> кроків</>} />
+                        <FeatureItem icon={<Meckoup />} title={<>Створення <br />  <span className="tp-slider-sub-3 sub-bold">образу</span></>} />
                       </div>
                       <div className="tp-slider-btn-3">
                         <Link
@@ -110,15 +98,15 @@ const BeautyBanner = () => {
               </div>
             </SwiperSlide>
           ))}
-          <div className="tp-swiper-dot tp-slider-3-dot d-sm-none"></div>
-          <div className="tp-slider-arrow-3 d-none d-sm-block">
+          {/* <div className="tp-swiper-dot tp-slider-3-dot d-sm-none"></div> */}
+          {/* <div className="tp-slider-arrow-3 d-none d-sm-block">
             <button type="button" className="tp-slider-3-button-prev">
               <ArrowPrev />
             </button>
             <button type="button" className="tp-slider-3-button-next">
               <ArrowNext />
             </button>
-          </div>
+          </div> */}
         </Swiper>
       </section>
     </>

@@ -12,7 +12,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
     <footer>
       <div className={`tp-footer-area ${primary_style?'tp-footer-style-2 tp-footer-style-primary tp-footer-style-6':''} ${style_2 ?'tp-footer-style-2':style_3 ? 'tp-footer-style-2 tp-footer-style-3': ''}`}
         data-bg-color={`${style_2 ? 'footer-bg-white' : 'footer-bg-grey'}`}>
-        <div className="tp-footer-top pt-95 pb-40">
+        {/* <div className="tp-footer-top pt-95 pb-40">
           <div className="container">
             <div className="row">
               <div className="col-xl-4 col-lg-3 col-md-4 col-sm-6">
@@ -97,23 +97,15 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </div> 
+        </div>*/}
         <div className="tp-footer-bottom">
           <div className="container">
             <div className="tp-footer-bottom-wrapper">
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <div className="tp-footer-copyright">
-                    <p>© {new Date().getFullYear()} All Rights Reserved  |  Next js Template by
-                      <Link href="/">{" "}❤</Link>.
-                    </p>
-                  </div>
-                </div>
-                <div className="col-md-6">
-                  <div className="tp-footer-payment text-md-end">
-                    <p>
-                      <Image src={pay} alt="pay" />
+                    <p>© {new Date().getFullYear()} All Rights Reserved
                     </p>
                   </div>
                 </div>
