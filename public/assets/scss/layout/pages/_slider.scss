@@ -453,7 +453,7 @@
         & > span{
             font-family: var(--tp-ff-charm);
             font-weight: 400;
-            font-size: 30px;
+            font-size: 25px;
             color: var(--tp-common-white);
             display: inline-block;
             @include animation-control(.1s);
@@ -1066,4 +1066,28 @@
     & .tp-slider-nav-item{
         opacity: 1;
     }
+}
+
+.tp-slider-p-1 {
+    @extend %tp-ff-roboto;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--tp-common-white);
+    display: inline-block;
+    @include animation-control(.1s);
+    margin-bottom: 18px;
+}
+
+.margin-bottom-space {
+    margin-bottom: 150px;
+    @media #{$md}{
+        margin-bottom: 0;
+    }
+    @media #{$sm}{
+        margin-bottom: 0;
+    }
+    @media #{$xs}{
+        margin-bottom: 0;
+    }
+
 }

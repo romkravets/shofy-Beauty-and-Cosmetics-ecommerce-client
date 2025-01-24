@@ -16,14 +16,14 @@ import Footer from '@/layout/footers/footer';
 export default function Home() {
   return (
     <Wrapper>
-      <SEO pageTitle='Home'/>
-      <HeaderThree/>
+      <SEO pageTitle='Головна'/>
+      {/* <HeaderThree/> */}
       <BeautyBanner/>
       <BeautyCategory/>
       <BeautyFeatured/>
-      <ProductArea/>
+      {/* <ProductArea/> */}
       <BeautyOfferBanner/>
-      <ProductAreaTwo/>
+      {/* <ProductAreaTwo/> */}
       <TrendingSpecialPrd/>
       <BeautyTestimonial/>
       <FeatureAreaTwo/>
