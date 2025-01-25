@@ -1100,3 +1100,25 @@
       font-weight: 700;
       color: #f7d308 !important;
   }
+
+  /* Default background image for desktop */
+.tp-slider-thumb-3 {
+    background-image: url('/assets/img/slider/3/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Background image for tablets */
+  @media (max-width: 1024px) {
+    .tp-slider-thumb-3 {
+      background-image: url('/assets/img/slider/3/banner-tablet.jpeg');
+    }
+  }
+  
+  /* Background image for mobile */
+  @media (max-width: 767px) {
+    .tp-slider-thumb-3 {
+      background-image: url('/assets/img/slider/3/banner-mobile.jpeg');
+    }
+  }
+  
