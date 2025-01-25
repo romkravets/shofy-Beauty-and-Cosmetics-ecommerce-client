@@ -31,7 +31,7 @@ const TrendingSpecialPrd = () => {
                 <Link  
                 target="_blank"
                 href="https://t.me/+ShQlJzyD7MA0ZDRi" 
-                className="tp-btn" style={{backgroundColor: '#BD844C', color: '#fff'}}>
+                className="tp-btn" style={{backgroundColor: '#821F40', color: '#fff'}}>
                     Дізнатись більше
                     {" "}<ArrowRightSmTwo/>
                 </Link>
@@ -42,7 +42,7 @@ const TrendingSpecialPrd = () => {
               <div className="tp-special-wrapper">
                 <div className="tp-special-slider">
                 <div className="video-container">
-                <iframe width="460" height="315" src="https://www.youtube.com/embed/Gs4UyiA3r1s?si=Ki-ttTDFuBJ68llk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <iframe width="460" height="315" src="https://www.youtube-nocookie.com/embed/Gs4UyiA3r1s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
                 </div>
               </div>
