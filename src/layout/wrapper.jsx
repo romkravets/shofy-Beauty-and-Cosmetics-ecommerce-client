@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from "react";
-import { ToastContainer } from "react-toastify";
 // internal
 import BackToTopCom from "@/components/common/back-to-top";
 import Loader from "@/components/loader/loader";
@@ -22,7 +21,6 @@ const Wrapper = ({ children }) => {
     <div id="wrapper">
       {children}
       <BackToTopCom />
-      {isMounted && <ToastContainer />} {/* ToastContainer only renders client-side */}
     </div>
   );
 };
