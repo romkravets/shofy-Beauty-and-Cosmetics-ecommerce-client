@@ -1,13 +1,13 @@
 
 // font url
 
-$font-url: 'https://fonts.googleapis.com/css2?family=Lobster:wght@400;700&family=Jost:wght@300;400;500;600;700&family=Oregano&family=Roboto:wght@300;400;500;700;900&display=swap';
+$font-url: 'https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Oregano&family=Roboto:wght@300;400;500;700;900&display=swap';
 
 // font family
 $font-family: (
     'ff': (
         'body': "'Jost', sans-serif",
-        'heading': "'Jost', sans-serif",
+        'heading': "'Roboto', sans-serif",
         'p': "'Jost', sans-serif",
         'jost': "'Jost', sans-serif",
         'fontawesome': '"Font Awesome 6 Pro"',

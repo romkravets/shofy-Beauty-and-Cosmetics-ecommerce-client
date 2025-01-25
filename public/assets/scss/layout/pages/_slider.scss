@@ -350,7 +350,7 @@
             width: 550px;
             height: 550px;
             border-radius: 50%;
-            background-color: rgba($color: #29C2E3, $alpha: .3);
+            background-color: rgba($color: #ecf1f3, $alpha: .3);
             z-index: -1;
         }
         &-shape{
@@ -507,14 +507,14 @@
                 margin-right: 28px;
                 padding-right: 30px;
                 &::after{
-                    position: absolute;
-                    content: '';
-                    right: 0;
-                    width: 1px;
-                    height: 100%;
-                    top: 50%;
-                    @extend %translateY1_2;
-                    background-color: rgba($color: $white, $alpha: .2);
+                    // position: absolute;
+                    // content: '';
+                    // right: 0;
+                    // width: 1px;
+                    // height: 100%;
+                    // top: 50%;
+                    // @extend %translateY1_2;
+                    // background-color: rgba($color: $white, $alpha: .2);
 
                     @media #{$xs}{
                         display: none;
@@ -690,17 +690,17 @@
         &-shape{
             &-1,
             &-2{
-                position: absolute;
-                bottom: -210px;
-                left: 50%;
-                @include transform(translateX(-50%) scale(0));
-                display: inline-block;
-                width: 800px;
-                height: 800px;
-                border-radius: 50%;
-                background-color: rgba($color: $white, $alpha: .04);
-                z-index: -1;
-                @include tp-transition(all, .5s);
+                // position: absolute;
+                // bottom: -210px;
+                // left: 50%;
+                // @include transform(translateX(-50%) scale(0));
+                // display: inline-block;
+                // width: 800px;
+                // height: 800px;
+                // border-radius: 50%;
+                // background-color: rgba($color: $white, $alpha: .04);
+                // z-index: -1;
+                // @include tp-transition(all, .5s);
             }
             &-2{
                 bottom: -249px;

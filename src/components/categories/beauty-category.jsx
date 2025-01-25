@@ -16,11 +16,11 @@ const BeautyCategory = () => {
     parent: 'косметики та кісточок'
   },
   {
-    img: '/assets/img/category/3.jpeg',
+    img: '/assets/img/category/3.jpg',
     parent: 'прості схеми без стресу'
   },
   {
-    img: '/assets/img/category/4.jpeg',
+    img: '/assets/img/category/4.jpg',
     parent: 'підтон твоєї кольорової гамми'
   },
 ]

@@ -1,6 +1,6 @@
 import React from 'react';
 // internal
-import { ArrowRightSmTwo } from '@/svg';
+import { ArrowRightSm } from '@/svg';
 import Link from 'next/link';
 
 const TrendingSpecialPrd = () => {
@@ -33,7 +33,7 @@ const TrendingSpecialPrd = () => {
                 href="https://t.me/+ShQlJzyD7MA0ZDRi" 
                 className="tp-btn" style={{backgroundColor: '#821F40', color: '#fff'}}>
                     Дізнатись більше
-                    {" "}<ArrowRightSmTwo/>
+                    {" "}<ArrowRightSm/>
                 </Link>
               </div>
           </div>

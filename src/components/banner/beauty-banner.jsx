@@ -1,25 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, EffectFade, Pagination } from "swiper";
-// internal
-//import slider_bg_1 from "@assets/img/slider/3/banner.jpeg";
 import { Cosmetics, Meckoup, VeganProduct } from "@/svg";
 
 // slider setting
 const slider_setting = {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  loop: true,
-  effect: "fade",
-  navigation: {
-    nextEl: ".tp-slider-3-button-next",
-    prevEl: ".tp-slider-3-button-prev",
-  },
-  pagination: {
-    el: ".tp-slider-3-dot",
-    clickable: true,
-  },
 };
 
 // slider data
@@ -56,24 +41,23 @@ const BeautyBanner = () => {
       <section className="tp-slider-area p-relative z-index-1">
         <Swiper
           {...slider_setting}
-          modules={[Navigation, EffectFade, Pagination]}
           className="tp-slider-active-3 swiper-container"
         >
           {slider_data.map((item) => (
             <SwiperSlide
               key={item.id}
-              className="tp-slider-item-3 tp-slider-height-3 p-relative black-bg d-flex align-items-center"
+              className="tp-slider-item-3 tp-slider-height-3 p-relative d-flex align-items-center"
+              style={{backgroundColor: '#363636'}}
             >
               <div
-                className="tp-slider-thumb-3 include-bg"
-                //style={{ backgroundImage: `url(${item.bg.src})` }}
+                className="tp-slider-thumb-3"
               ></div>
               <div className="container">
                 <div className="row align-items-center margin-bottom-space">
                   <div className="col-xl-6 col-lg-6 col-md-8">
                     <div className="tp-slider-content-3">
-                      <span>Авторський онлайн курс Анастасії Кравець</span>
-                      <h3 className="tp-slider-title-3">
+                      <span style={{fontFamily: "'Jost', sans-serif"}}>Авторський онлайн курс Анастасії Кравець</span>
+                      <h3 className="tp-slider-title-3" style={{fontFamily: "'Jost', sans-serif"}}>
                         МАКІЯЖ ДЛЯ <span className="tp-slider-sub-3">СЕБЕ</span>
                       </h3>
                       <p className="tp-slider-p-1">Навчись створювати свій ідеальний макіяж:</p>

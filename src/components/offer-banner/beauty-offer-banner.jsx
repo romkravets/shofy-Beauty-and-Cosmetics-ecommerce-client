@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRightSmTwo } from '@/svg';
+import { ArrowRightSm } from '@/svg';
 import collection_thumb from '@assets/img/product/collection/collection-1.jpg';
 import collection_thumb_2 from '@assets/img/product/collection/1.jpeg';
 import Link from 'next/link';
@@ -28,7 +28,7 @@ const BeautyOfferBanner = () => {
                             href="https://t.me/+ShQlJzyD7MA0ZDRi"
                             className="tp-btn">
                               Дізнатись більше
-                              {" "}<ArrowRightSmTwo/>
+                              {" "}<ArrowRightSm/>
                           </Link>
                         </div>
                     </div>

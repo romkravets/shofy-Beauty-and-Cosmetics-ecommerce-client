@@ -120,11 +120,11 @@
 
 .#{$theme-prifix}-testimonial{
     &-item-3{
-        padding: 43px 75px 52px 50px; 
+        //padding: 43px 75px 52px 50px; 
 
-        // @media #{$md}{
-        //     padding: 0; 
-        // }
+        @media #{$md}{
+            padding: 0; 
+        }
 
         @media #{$lg}{
             padding-right: 48px;
