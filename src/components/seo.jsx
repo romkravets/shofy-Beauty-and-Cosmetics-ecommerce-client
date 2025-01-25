@@ -5,10 +5,10 @@ const SEO = ({pageTitle}) => (
   <>
     <Head>
       <title>
-        {pageTitle && `${pageTitle} - Курси Самомакіяж`}
+        {pageTitle && `${pageTitle} - Курс  Макіяж для себе`}
       </title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-      <meta name="description" content="Б'юті студія: макіяж, манікюр, курси самокосметики та краси. Вчіть професійно доглядати за собою та розкривати свою унікальність разом з нами!" />
+      <meta name="description" content="Б'юті студія.   Макіяж для себе. Курси самокосметики та краси. Вчіть професійно доглядати за собою та розкривати свою унікальність разом з нами!" />
       <meta name="robots" content="noindex, nofollow" />
       <meta
         name="viewport"

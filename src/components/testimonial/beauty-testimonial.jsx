@@ -3,10 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
-// internal
 import { beauty_testi_data } from '@/data/testimonial-data';
 
-// slider setting 
 const slider_setting = {
   slidesPerView: 2,
   spaceBetween: 24,

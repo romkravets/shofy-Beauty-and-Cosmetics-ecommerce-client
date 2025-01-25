@@ -122,12 +122,16 @@
     &-item-3{
         padding: 43px 75px 52px 50px; 
 
+        // @media #{$md}{
+        //     padding: 0; 
+        // }
+
         @media #{$lg}{
             padding-right: 48px;
         }
 
         @media #{$xs}{
-            padding: 43px 30px 52px 35px;
+            padding: 0;
         }
     }
     &-rating-3{
