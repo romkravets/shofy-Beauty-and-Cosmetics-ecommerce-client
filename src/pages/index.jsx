@@ -21,10 +21,10 @@ export default function Home() {
       <BeautyBanner/>
       <BeautyCategory/>
       <BeautyOfferBanner/>
-      <BeautyFeatured/>
       {/* <ProductArea/> */}
       {/* <ProductAreaTwo/> */}
       <TrendingSpecialPrd/>
+      {/* <BeautyFeatured/> */}
       <BeautyTestimonial/>
       <FeatureAreaTwo/>
       {/* <InstagramAreaThree/> */}

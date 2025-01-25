@@ -86,8 +86,9 @@ const BeautyBanner = () => {
                       </div>
                       <div className="tp-slider-btn-3">
                         <Link
-                          href="/shop"
                           className="tp-btn tp-btn-border tp-btn-border-white"
+                          target="_blank"
+                          href="https://t.me/+ShQlJzyD7MA0ZDRi"
                         >
                           Приєднатися до курсу 🔥
                         </Link>

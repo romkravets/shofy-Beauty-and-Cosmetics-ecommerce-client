@@ -6,6 +6,7 @@ import logo from '@assets/img/logo/logo.svg';
 import pay from '@assets/img/footer/footer-pay.png';
 import social_data from '@/data/social-data';
 import { Email, Location } from '@/svg';
+import { right } from '@popperjs/core';
 
 const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
   return (
@@ -101,9 +102,9 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
         </div>*/}
         <div className="tp-footer-bottom">
           <div className="container">
-            <div className="tp-footer-bottom-wrapper">
+            <div className="tp-footer-bottom-wrapper" style={{textAlign: right}}>
               <div className="row align-items-center">
-                <div className="col-md-6">
+                <div className="col-md-12">
                   <div className="tp-footer-copyright">
                     <p>© {new Date().getFullYear()} All Rights Reserved
                     </p>

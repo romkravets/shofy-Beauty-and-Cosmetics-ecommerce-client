@@ -1,5 +1,6 @@
 import React from 'react';
-import { Delivery, Discount, Refund, Support } from '@/svg';
+import { ArrowRightSmTwo, Delivery, Discount, Refund, Support } from '@/svg';
+import Link from 'next/link';
 
 export const feature_data = [
   {
@@ -27,25 +28,19 @@ export const feature_data = [
 
 const FeatureAreaTwo = () => {
   return (
-    <section className={`tp-feature-area tp-feature-border-2 pb-80`}>
+    <section className={`tp-feature-area pb-45`}>
       <div className="container">
-        <div className="tp-feature-inner-2">
+        <div className="tp-feature-inner-2 text-center">
           <div className="row align-items-center">
-            {feature_data.map((item, i) => (
-              <div key={i} className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-                <div className="tp-feature-item-2 d-flex align-items-start mb-40">
-                  <div className="tp-feature-icon-2 mr-10">
-                    <span>
-                      {item.icon}
-                    </span>
-                  </div>
-                  <div className="tp-feature-content-2">
-                    <h3 className="tp-feature-title-2">{item.title}</h3>
-                    <p>{item.subtitle}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
+          <div className="tp-collection-btn">
+            <Link 
+             target="_blank"
+             href="https://t.me/+ShQlJzyD7MA0ZDRi"
+             className="tp-btn" style={{backgroundColor: '#BD844C', color: '#fff'}}>
+                Приєднатися до курсу
+                {" "}<ArrowRightSmTwo/>
+            </Link>
+          </div>
           </div>
         </div>
       </div>

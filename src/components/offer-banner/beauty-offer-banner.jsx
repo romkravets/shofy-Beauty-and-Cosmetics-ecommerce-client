@@ -21,10 +21,16 @@ const BeautyOfferBanner = () => {
                     <div className="tp-collection-content">
                         <span style={{color:'#FF5733', fontSize: 20}}>Подарунок!</span>
                         <h3 className="tp-collection-title">
-                          <Link href="/shop">Знижка -25% на косметику <br/> якою я працюю</Link>
+                          <Link 
+                           target="_blank"
+                           href="https://t.me/+ShQlJzyD7MA0ZDRi"
+                          >Знижка -25% на косметику <br/> якою я працюю</Link>
                         </h3>
                         <div className="tp-collection-btn">
-                          <Link href="/" className="tp-btn">
+                          <Link 
+                            target="_blank"
+                            href="https://t.me/+ShQlJzyD7MA0ZDRi"
+                            className="tp-btn">
                               Дізнатись більше
                               {" "}<ArrowRightSmTwo/>
                           </Link>

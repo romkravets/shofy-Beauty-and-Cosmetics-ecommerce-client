@@ -4,11 +4,12 @@ import { Pagination, Navigation, EffectFade } from 'swiper';
 import Image from 'next/image';
 // internal
 import special_thumb from '@assets/img/product/special/big/special-big-1.jpg';
-import { ArrowNextSm, ArrowPrevSm, PlusTwo } from '@/svg';
+import { ArrowNextSm, ArrowPrevSm, ArrowRightSmTwo, PlusTwo } from '@/svg';
 import { useGetProductTypeQuery } from '@/redux/features/productApi';
 import ErrorMsg from '@/components/common/error-msg';
 import ProductItem from './product-item';
 import { HomeThreeTrendingPrdLoader } from '@/components/loader';
+import Link from 'next/link';
 
 // slider setting 
 const sliderSetting = {
@@ -58,10 +59,10 @@ const TrendingSpecialPrd = () => {
     <>
       <section className="tp-special-area fix">
         <div className="container">
-        <div className="col-lg-6 col-md-8">
+          <div className="col-lg-6 col-md-8 pt-95">
               <div className="tp-section-title-wrapper-3 mb-45">
                 <span className="tp-section-title-pre-3">
-                  Програма курсу
+                  Фрагмент курсу
                 </span>
                 <h3 className="tp-section-title-3">Як проходить курс</h3>
               </div>
@@ -76,6 +77,17 @@ const TrendingSpecialPrd = () => {
                 <p style={{fontSize: 18}}>В процесі навчання ти можеш обговорювати свої результати у закритій групі з іншими учасницями.</p>
                 </div>
               </div>
+              <div className="row align-items-center pt-20">
+              <div className="tp-collection-btn">
+                <Link  
+                target="_blank"
+                href="https://t.me/+ShQlJzyD7MA0ZDRi" 
+                className="tp-btn" style={{backgroundColor: '#BD844C', color: '#fff'}}>
+                    Дізнатись більше
+                    {" "}<ArrowRightSmTwo/>
+                </Link>
+              </div>
+          </div>
             </div>
             <div className="col-xl-7 col-md-6">
               <div className="tp-special-wrapper">
@@ -88,6 +100,7 @@ const TrendingSpecialPrd = () => {
             </div>
           </div>
         </div>
+        
       </section>
     </>
   );
