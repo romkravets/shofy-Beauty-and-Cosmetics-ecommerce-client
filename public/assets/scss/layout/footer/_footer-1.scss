@@ -141,7 +141,7 @@
         & p{
             @extend %tp-ff-roboto;
             font-size: 14px;
-            color: var(--tp-text-5);
+            color: var(--tp-theme-primary);
             margin-bottom: 0;
             & a{
                 color: var(--tp-theme-primary);

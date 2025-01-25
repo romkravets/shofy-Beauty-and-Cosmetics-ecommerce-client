@@ -13,7 +13,7 @@ const FeatureAreaTwo = () => {
             <Link 
               target="_blank"
               href="https://t.me/+ShQlJzyD7MA0ZDRi"
-              className="tp-btn" style={{backgroundColor: '#BD844C', color: '#fff'}}>
+              className="tp-btn" style={{backgroundColor: '#821F40', color: '#fff'}}>
                 Приєднатися до курсу
                 {" "}<ArrowRightSmTwo/>
             </Link>
