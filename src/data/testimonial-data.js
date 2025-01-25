@@ -1,7 +1,6 @@
 import user_1 from '@assets/img/users/user-1.jpeg';
 import user_2 from '@assets/img/users/user-2.jpeg';
 import user_3 from '@assets/img/users/user-3.jpg';
-import user_4 from '@assets/img/users/user-4.jpg';
 
 // fashion_testi_data
 export const fashion_testi_data = [
@@ -20,15 +19,7 @@ export const fashion_testi_data = [
     user:user_3,
     name:'John Smith',
     designation:'UI/UX Designer'
-  },
-  {
-    id:3,
-    review:3,
-    desc:'“Thanks for all your efforts and teamwork over the last several months!  Thank you so much”',
-    user:user_4,
-    name:'Salim Rana',
-    designation:'Web Developer'
-  },
+  }
 ]
 
 // beauty testimonial data 

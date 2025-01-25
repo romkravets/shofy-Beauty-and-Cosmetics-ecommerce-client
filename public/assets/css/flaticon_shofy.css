@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: "flaticon_shofy";
     src: url("../fonts/flaticon_shofy.ttf?dee88fc45715450dd1106c3509e3ddac") format("truetype"),
 url("../fonts/flaticon_shofy.woff?dee88fc45715450dd1106c3509e3ddac") format("woff"),
@@ -106,4 +106,4 @@ i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
 }
 .flaticon-vegan:before {
     content: "\f11e";
-}
+} */
