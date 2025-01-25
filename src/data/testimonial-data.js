@@ -1,5 +1,5 @@
-import user_1 from '@assets/img/users/user-1.jpg';
-import user_2 from '@assets/img/users/user-2.jpg';
+import user_1 from '@assets/img/users/user-1.jpeg';
+import user_2 from '@assets/img/users/user-2.jpeg';
 import user_3 from '@assets/img/users/user-3.jpg';
 import user_4 from '@assets/img/users/user-4.jpg';
 
@@ -35,26 +35,18 @@ export const fashion_testi_data = [
 export const beauty_testi_data = [
   {
     id:1,
-    review:4,
-    desc:'Suscipit tellus mauris a diam maecenas. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Auctor urna nunc id cursus. Scelerisque purus semper eget duis at. Pharetra vel turpis nunc eget.',
     user:user_1,
-    name:'Jake Weary',
-    designation:'CO Founder'
   },
   {
     id:2,
-    review:3.5,
-    desc:'Suscipit tellus mauris a diam maecenas. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Auctor urna nunc id cursus. Scelerisque purus semper eget duis at. Pharetra vel turpis nunc eget.',
     user:user_2,
-    name:'Salim Rana',
-    designation:'Web Developer'
   },
-  {
-    id:3,
-    review:5,
-    desc:'Suscipit tellus mauris a diam maecenas. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Auctor urna nunc id cursus. Scelerisque purus semper eget duis at. Pharetra vel turpis nunc eget.',
-    user:user_3,
-    name:'Selina Gomz',
-    designation:'CO Founder'
-  },
+  // {
+  //   id:3,
+  //   review:5,
+  //   desc:'Suscipit tellus mauris a diam maecenas. Ut faucibus pulvinar elementum integer enim neque volutpat ac. Auctor urna nunc id cursus. Scelerisque purus semper eget duis at. Pharetra vel turpis nunc eget.',
+  //   user:user_3,
+  //   name:'Selina Gomz',
+  //   designation:'CO Founder'
+  // },
 ]
