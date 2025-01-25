@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectFade, Pagination } from "swiper";
 // internal
-import slider_bg_1 from "@assets/img/slider/3/banner.jpeg";
+//import slider_bg_1 from "@assets/img/slider/3/banner.jpeg";
 import { Cosmetics, Meckoup, VeganProduct } from "@/svg";
 
 // slider setting
@@ -26,7 +26,7 @@ const slider_setting = {
 const slider_data = [
   {
     id: 1,
-    bg: slider_bg_1,
+    //bg: slider_bg_1,
     subtitle: "Авторський онлайн курс Анастасії Кравець",
     title: "МАКІЯЖ ДЛЯ СЕБЕ",
   },
@@ -66,7 +66,7 @@ const BeautyBanner = () => {
             >
               <div
                 className="tp-slider-thumb-3 include-bg"
-                style={{ backgroundImage: `url(${item.bg.src})` }}
+                //style={{ backgroundImage: `url(${item.bg.src})` }}
               ></div>
               <div className="container">
                 <div className="row align-items-center margin-bottom-space">
