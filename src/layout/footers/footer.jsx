@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
   return (
     <footer>

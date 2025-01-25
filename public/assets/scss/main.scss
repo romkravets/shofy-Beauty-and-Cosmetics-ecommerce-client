@@ -2,3 +2,9 @@
 @forward 'theme';
 @forward 'components';
 @forward 'layout';
+
+
+
+body {
+    overflow-x: hidden;
+}
