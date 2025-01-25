@@ -250,8 +250,8 @@
     }
     &-slider{
         @media #{$xs}{
-            padding-left: 20px;
-            padding-right: 20px;
+            //padding-left: 20px;
+            //padding-right: 20px;
         }
         &-dot{
             .swiper-pagination-bullet.swiper-pagination-bullet-active{
@@ -306,7 +306,7 @@
         margin-left: 12px;
         @media #{$sm, $xs}{
            margin-left: 0;
-           margin-top: 10px;
+           margin-top: 60px;
         }
     }
     &-thumb{

@@ -4,9 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, EffectFade, Pagination } from "swiper";
 // internal
 import slider_bg_1 from "@assets/img/slider/3/banner.jpeg";
-import slider_bg_2 from "@assets/img/slider/3/slider-2.jpg";
-import slider_bg_3 from "@assets/img/slider/3/slider-3.jpg";
-import { ArrowNext, ArrowPrev, Cosmetics, Meckoup, VeganProduct } from "@/svg";
+import { Cosmetics, Meckoup, VeganProduct } from "@/svg";
 
 // slider setting
 const slider_setting = {
@@ -99,15 +97,6 @@ const BeautyBanner = () => {
               </div>
             </SwiperSlide>
           ))}
-          {/* <div className="tp-swiper-dot tp-slider-3-dot d-sm-none"></div> */}
-          {/* <div className="tp-slider-arrow-3 d-none d-sm-block">
-            <button type="button" className="tp-slider-3-button-prev">
-              <ArrowPrev />
-            </button>
-            <button type="button" className="tp-slider-3-button-next">
-              <ArrowNext />
-            </button>
-          </div> */}
         </Swiper>
       </section>
     </>
