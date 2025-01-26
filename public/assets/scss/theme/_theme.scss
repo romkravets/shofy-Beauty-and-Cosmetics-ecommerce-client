@@ -152,6 +152,77 @@ html,body {
     overflow-x: hidden!important;
 }
 
+
+.accordion {
+	//max-width: 600px;
+	//margin: 2rem auto;
+  }
+  
+  .accordion-title {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 700;
+	color: var(--tp-text-body);
+	border: none;
+  }
+  
+  .accordion-title:hover {
+	background-color: #ebf2f3;
+  }
+  
+  .accordion-title,
+  .accordion-content {
+	padding: 1rem;
+	border: none;
+  }
+  
+  .accordion-content a,  .accordion-content span  {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: var(--tp-text-body);
+  }
+
+  .accordion-content a {
+	font-weight: bold;
+	color: #821F40;
+	display: inline-block;
+	margin-left: 5px;
+  }
+  
+  @media screen and (max-width: 700px) {
+	.accordion {
+	  width: 100%;
+	}
+  }
+
+.tp-collection-btn {
+  padding-left: 1rem;
+  }
+
+.tp-collection-btn li {
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 10px;
+	text-wrap: wrap;
+ }
+
+ .tp-collection-item {
+	padding: 2rem 1rem 2rem 2rem;
+ }
+
+ .blur {
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+ }
+
+ .tp-collection-content {
+	position: relative!important;
+ }
+
 a{
 	text-decoration: none;
 }
