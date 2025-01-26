@@ -102,17 +102,17 @@
             }
         }
     }
-    &-content{
-        position: absolute;
-        top: 55px;
-        left: 55px;
-        right: 55px;
-        word-wrap: break-word;
-        @media #{$md, $xs}{
-            top: 35px;
-            left: 30px;
-            right: 30px;
-        }
+    &-content {
+        // position: absolute;
+        // top: 55px;
+        // left: 55px;
+        // right: 55px;
+        // word-wrap: break-word;
+        // @media #{$md, $xs}{
+        //     top: 35px;
+        //     left: 30px;
+        //     right: 30px;
+        //}
         & span{
             font-size: 16px;
             color: var(--tp-common-black);

@@ -15,8 +15,8 @@ export default function Home() {
     <Wrapper>
       <SEO pageTitle='Aнастасія Кравець'/>
       <BeautyBanner/>
-      <BeautyCategory/>
       <BeautyOfferBanner/>
+      <BeautyCategory/>
       <TrendingSpecialPrd/>
       <BeautyTestimonial/>
       <FeatureAreaTwo/>

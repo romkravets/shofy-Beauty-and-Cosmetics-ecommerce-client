@@ -6,7 +6,8 @@ export const accordionData = [
       },
     {
       title: 'Коли старт?',
-      content: `Скоро. Слідкуйте за новинами в Інстаграм.`
+      content: `Скоро. Слідкуйте за новинами в Інстаграм.`,
+      link: 'https://www.instagram.com/beautybox_nk/'
     },
     {
       title: 'Який необхідний інвентар?',

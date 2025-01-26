@@ -199,6 +199,30 @@ html,body {
 	}
   }
 
+.tp-collection-btn {
+  padding-left: 1rem;
+  }
+
+.tp-collection-btn li {
+	font-size: 20px;
+	color: #000;
+	margin-bottom: 10px;
+	text-wrap: wrap;
+ }
+
+ .tp-collection-item {
+	padding: 2rem 1rem 2rem 2rem;
+ }
+
+ .blur {
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+ }
+
+ .tp-collection-content {
+	position: relative!important;
+ }
+
 a{
 	text-decoration: none;
 }
