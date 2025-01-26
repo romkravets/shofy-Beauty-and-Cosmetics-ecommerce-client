@@ -57,7 +57,7 @@ const BeautyBanner = () => {
                   <div className="col-xl-6 col-lg-6 col-md-8">
                     <div className="tp-slider-content-3">
                       <span style={{fontFamily: "'Jost', sans-serif"}}>Авторський онлайн курс Анастасії Кравець</span>
-                      <h3 className="tp-slider-title-3" style={{fontFamily: "'Jost', sans-serif"}}>
+                      <h3 className="tp-slider-title-3">
                         МАКІЯЖ ДЛЯ <span className="tp-slider-sub-3">СЕБЕ</span>
                       </h3>
                       <p className="tp-slider-p-1">Навчись створювати свій ідеальний макіяж:</p>
