@@ -146,6 +146,12 @@ body {
 	line-height: 26px;
 }
 
+
+html,body {
+    max-width: 100%!important;
+    overflow-x: hidden!important;
+}
+
 a{
 	text-decoration: none;
 }

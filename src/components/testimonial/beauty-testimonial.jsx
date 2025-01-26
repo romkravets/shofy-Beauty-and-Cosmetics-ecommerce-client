@@ -7,13 +7,12 @@ import { beauty_testi_data } from '@/data/testimonial-data';
 
 const slider_setting = {
   slidesPerView: 3,
-  spaceBetween: 24,
+  //spaceBetween: 24,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
   },
-  slidesOffsetAfter:0,
-  freeMode: true,
+  //freeMode: true,
   pagination: {
     el: ".tp-testimoinal-slider-dot-3",
     clickable: true,
@@ -24,7 +23,7 @@ const slider_setting = {
   },
   breakpoints: {
     '992': {
-      slidesPerView: 3,
+      slidesPerView: 2,
     },
     '576': {
       slidesPerView: 1,
@@ -54,9 +53,9 @@ const BeautyTestimonial = () => {
             <div className="col-xl-12">
               <div className="tp-testimonial-slider-3">
                 <Swiper {...slider_setting} modules={[Pagination, Navigation]} className="tp-testimoinal-slider-active-3 swiper-container">
-                  {beauty_testi_data.map((item) => (
-                    <SwiperSlide key={item.id} className="tp-testimonial-item-3 p-relative z-index-1">
-                    <div className="tp-testimonial-content-3" style={{ position: 'relative', width: '400px', height: '570px' }}>
+                  {beauty_testi_data.map((item, index) => (
+                    <SwiperSlide key={index} className="tp-testimonial-item-3 p-relative z-index-1">
+                    <div className="tp-testimonial-content-3" style={{ position: 'relative', height: '570px' }}>
                       <Image
                         src={item.user}
                         alt="user img"
