@@ -42,7 +42,7 @@ const TrendingSpecialPrd = () => {
               <div className="tp-special-wrapper">
                 <div className="tp-special-slider">
                 <div className="video-container">
-                <iframe width="460" height="315" src="https://www.youtube-nocookie.com/embed/Gs4UyiA3r1s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <iframe width="460" height="315" src="https://www.youtube-nocookie.com/embed/EAy8FnGXEiU?si=OXu9gbolE8YbB16r" title="Фрагмент урок" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
                 </div>
               </div>

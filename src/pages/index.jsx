@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import SEO from "@/components/seo";
 import Wrapper from "@/layout/wrapper";
 import BeautyBanner from '@/components/banner/beauty-banner';
@@ -11,6 +12,7 @@ import Accordion from "@/components/accordion/Accordion";
 import { accordionData } from "@/data/accordion";
 
 export default function Home() {
+
   return (
     <Wrapper>
       <SEO pageTitle='Aнастасія Кравець'/>
