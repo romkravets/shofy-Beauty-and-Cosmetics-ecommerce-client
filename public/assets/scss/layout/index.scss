@@ -12,3 +12,24 @@
     margin-bottom: 20px;
     font-size: 21px;
 }
+
+.tp-slider-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .tp-slider-overlay {
+      background: none;
+    }
+  }
+
+
+.tp-btn {
+    font-family: 'Roboto', sans-serif;
+}
