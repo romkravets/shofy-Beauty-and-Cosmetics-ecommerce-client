@@ -47,7 +47,7 @@ const BeautyBanner = () => {
             <SwiperSlide
               key={item.id}
               className="tp-slider-item-3 tp-slider-height-3 p-relative d-flex align-items-center"
-              style={{backgroundColor: '#363636'}}
+              style={{backgroundColor: '#F6F7F9'}}
             >
               <div
                 className="tp-slider-thumb-3"
