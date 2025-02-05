@@ -27,14 +27,7 @@ const BeautyCategory = () => {
 
     
     content = data.map((item, index) => (
-      <Link
-        key={index}
-        target="_blank"
-        href="https://t.me/+ShQlJzyD7MA0ZDRi"
-        className="col-lg-3 col-sm-6"
-        aria-label={`${index}`} rel="noopener noreferrer"
-      >
-      <div>
+      <div key={index} className="col-lg-3 col-sm-6">
         <div className="tp-category-item-3 p-relative text-center z-index-1 fix mb-30">
           <div
             className="tp-category-thumb-3 include-bg"
@@ -45,19 +38,18 @@ const BeautyCategory = () => {
             <h3 className="tp-category-title-3">
                 {item.parent}
             </h3>
-              <div
+              <Link
                 className="cursor-pointer tp-link-btn tp-link-btn-2"
                 target="_blank"
                 href="https://t.me/+ShQlJzyD7MA0ZDRi"
               >
                 Розпочати зараз
                 <ArrowRightSm />
-              </div>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-      </Link>
     ));
   
   return (

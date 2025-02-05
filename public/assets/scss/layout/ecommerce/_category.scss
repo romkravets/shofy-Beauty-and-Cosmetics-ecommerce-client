@@ -189,22 +189,24 @@
     $self3: &;
     &-item-3{
         min-height: 520px;
+        visibility: visible;
+        opacity: 1;
 
         &:hover{
             #{$self3}{
-                &-content-3{
-                    bottom: 35px;
+                &-content-3 {
+                    //bottom: 35px;
                 }
-                &-btn-3{
-                    visibility: visible;
-                    opacity: 1;
+                &-btn-3 {
+                    //visibility: visible;
+                    //opacity: 1;
                 }
                 &-thumb-3{
                     @include transform(scale(1.1));
 
                     &::after{
-                        opacity: 0;
-                        visibility: hidden;
+                    //opacity: 0;
+                    //visibility: hidden;
                     }
                     &::before{
                         visibility: visible;
@@ -241,6 +243,7 @@
         font-size: 24px;
         color: var(--tp-common-white);
         margin-bottom: 0;
+        padding: 0 10px;
 
         & a{
             background-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff);
@@ -255,7 +258,7 @@
     }
     &-content-3{
         position: absolute;
-        bottom: -18px;
+        bottom: 50px;
         left: 0;
         right: 0;
         width: 100%;
@@ -270,8 +273,8 @@
     }
     &-btn-3{
         @extend %tp-transition;
-        visibility: hidden;
-        opacity: 0;
+        //visibility: hidden;
+        //opacity: 0;
 
         & .#{$theme-prifix}-link-btn-2{
             color: var(--tp-common-white);
