@@ -11,7 +11,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
               <div className="row align-items-center">
                 <div className="col-md-12">
                   <div className="tp-footer-copyright">
-                    <p style={{color: '#363636'}}>© {new Date().getFullYear()} All Rights Reserved
+                    <p style={{color: '#363636'}}>© {new Date().getFullYear()} Всі права захищені.
                     </p>
                   </div>
                 </div>

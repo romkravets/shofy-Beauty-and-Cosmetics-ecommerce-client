@@ -8,7 +8,7 @@ const TrendingSpecialPrd = () => {
     <>
       <section className="tp-special-area fix">
         <div className="container">
-          <div className="col-lg-6 col-md-8 pt-95">
+          <div className="col-lg-6 col-md-8 pt-65">
               <div className="tp-section-title-wrapper-3 mb-45">
                 <h3 className="tp-section-title-3">Як проходить курс</h3>
               </div>
