@@ -4,7 +4,6 @@ const Woman = () => {
   return (
     <svg  width="40"
     height="48"
-    viewBox="0 0 30 38"
     xmlns="http://www.w3.org/2000/svg" fill="#fff" version="1.1" viewBox="0 0 361.055 361.055" stroke="#fff">
     <g id="SVGRepo_bgCarrier" stroke-width="0"/>
     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
