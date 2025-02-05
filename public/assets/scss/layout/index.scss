@@ -1,3 +1,14 @@
 @forward './footer';
 @forward './pages';
 @forward './ecommerce';
+
+.fontR {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-right: 20px;  
+}
+
+.title-padding {
+    margin-bottom: 20px;
+    font-size: 21px;
+}
