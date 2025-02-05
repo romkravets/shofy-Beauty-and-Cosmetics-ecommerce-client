@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Cosmetics, Meckoup, VeganProduct } from "@/svg";
+import { Cosmetics, Meckoup, VeganProduct, Woman } from "@/svg";
 
 // slider setting
 const slider_setting = {
@@ -47,11 +47,13 @@ const BeautyBanner = () => {
             <SwiperSlide
               key={item.id}
               className="tp-slider-item-3 tp-slider-height-3 p-relative d-flex align-items-center"
-              style={{backgroundColor: '#F6F7F9'}}
-            >
+              style={{ backgroundColor: '#F6F7F9', position: "relative" }}
+              >
               <div
                 className="tp-slider-thumb-3"
               ></div>
+                <div className="tp-slider-overlay"></div>
+
               <div className="container">
                 <div className="row align-items-center margin-bottom-space">
                   <div className="col-xl-6 col-lg-6 col-md-8">
@@ -62,9 +64,12 @@ const BeautyBanner = () => {
                       </h3>
                       <p className="tp-slider-p-1">Навчись створювати свій ідеальний макіяж:</p>
                       <div className="tp-slider-feature-3 d-flex flex-wrap align-items-center p-relative z-index-1 mb-15">
-                        <FeatureItem icon={<Cosmetics />} title={<>Лише за<br /> <span className="tp-slider-sub-3 sub-bold">15</span> хвилин</>} />
+                        <FeatureItem icon={<Cosmetics />} title={<>MakeUp<br /> <span className="tp-slider-sub-3 sub-bold">15</span> / <span className="tp-slider-sub-3 sub-bold">40</span> хвилин</>} />
                         <FeatureItem icon={<VeganProduct />} title={<>Всього за <br />  <span className="tp-slider-sub-3 sub-bold">5</span> кроків</>} />
-                        <FeatureItem icon={<Meckoup />} title={<>Створення <br />  <span className="tp-slider-sub-3 sub-bold">образу</span></>} />
+                      </div>
+                      <div className="tp-slider-feature-3 d-flex flex-wrap align-items-center p-relative z-index-1 mb-15">
+                      <FeatureItem icon={<Meckoup />} title={<>Створення <br />  <span className="tp-slider-sub-3 sub-bold">стилю</span></>} />
+                      <FeatureItem icon={<Woman />} title={<>Розбір <br />  <span className="tp-slider-sub-3 sub-bold">зовнішності</span></>} />
                       </div>
                       <div className="tp-slider-btn-3">
                         <Link

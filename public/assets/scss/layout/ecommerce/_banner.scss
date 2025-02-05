@@ -271,6 +271,7 @@
     }
     &-btn{
         & .tp-btn{
+            font-family: 'Roboto', sans-serif;
             @include animation-control(.9s);
             background-color: var(--tp-common-black);
             padding: 10px 41px 8px;
@@ -445,6 +446,7 @@
     }
     &-btn-4{
         & .tp-btn{
+            font-family: 'Roboto', sans-serif;
             border-color: rgba($color: $black, $alpha: .1);
             padding: 4px 21px;
 
@@ -520,6 +522,7 @@
         }
         &-btn{
             & .tp-btn{
+               
                 border-color: rgba($color: $white, $alpha: .3);
                 padding: 4px 21px;
                 color: var(--tp-common-white);;
