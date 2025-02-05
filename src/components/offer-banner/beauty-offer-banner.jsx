@@ -52,7 +52,7 @@ const BeautyOfferBanner = () => {
                     <li>Випускаю свій перший онлайн проект «TasiaLook»</li>
                     <div style={{display: "flex", justifyContent: "center", marginTop: 10}}>
                     <div style={{display: "flex", width: '20%', justifyContent: "space-between"}}>
-                      <div>
+                      <div style={{marginRight: 20}}>
                         <a
                           href="https://www.instagram.com/beautybox_nk"
                           target="_blank"
